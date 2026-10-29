@@ -59,9 +59,12 @@ def con():
 
 
 if not BANCO.exists():
-    st.error("Banco não encontrado. Rode `make dados etl` (ou `python -m recebiveis.gerar_dados` "
-             "e `python -m recebiveis.etl`) antes de abrir o painel.")
-    st.stop()
+    # primeira execução (ex.: Streamlit Cloud): gera a base sintética e roda o ETL
+    from recebiveis import etl, gerar_dados  # noqa: E402
+
+    with st.spinner("Preparando a base de exemplo (só na primeira execução)..."):
+        gerar_dados.salvar(gerar_dados.gerar())
+        etl.rodar()
 
 c = con()
 dims = c.execute("SELECT DISTINCT segmento, porte, faixa_score FROM dim_cliente").df()
