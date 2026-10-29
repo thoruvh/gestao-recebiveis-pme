@@ -122,7 +122,7 @@ macroeconômico, para que as métricas mostrem padrões realistas.
 **Vitor Hugo Santos**: analista de crédito e dados (política de crédito, curvas de risco, NPV de carteira).
 Faço projetos de **dashboards financeiros, automação de relatórios e integração de dados** para empresas.
 
-[LinkedIn](https://www.linkedin.com/in/SEU-PERFIL) · [Workana](https://www.workana.com/freelancer/SEU-PERFIL)
+[LinkedIn](https://www.linkedin.com/in/vitor-hugosantos) · [Workana](https://www.workana.com/freelancer/b222e6ac36735ca36431f5734c3e302a)
 
 ---
 Licença MIT
