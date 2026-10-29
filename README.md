@@ -1,5 +1,10 @@
 # Gestão de Recebíveis & Inadimplência para PMEs
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://recebiveis-pme.streamlit.app/)
+[![CI](https://github.com/thoruvh/gestao-recebiveis-pme/actions/workflows/ci.yml/badge.svg)](https://github.com/thoruvh/gestao-recebiveis-pme/actions/workflows/ci.yml)
+
+**[▶ Ver o painel ao vivo](https://recebiveis-pme.streamlit.app/)**
+
 > **Quanto do meu contas a receber vai virar caixa e quanto vai virar perda?**
 > Este projeto responde isso para uma distribuidora B2B: pipeline de dados + métricas de crédito + painel interativo.
 
